@@ -11,3 +11,7 @@ $('#set-color').on('click', function (n) {
       $('.brush').css('background', color)
     }
   })
+  // create 20 squares using divs
+ for (let i = 0; i < 20; i++){
+   $('body').append('<div class= "squares"></div>')
+ }
