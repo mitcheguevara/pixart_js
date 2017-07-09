@@ -15,6 +15,9 @@ $('#set-color').on('click', function (n) {
  for (let i = 0; i < 20; i++){
    $('body').append('<div class= "squares"></div>')
  }
+ //change color of squares to brush color
 $('.square').on('click', function(){
-    $(this).css('background','green')
+    var getColor = $('.brush').css('background')
+    $(this).css('background', getColor)
+
 })
