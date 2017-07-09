@@ -15,3 +15,6 @@ $('#set-color').on('click', function (n) {
  for (let i = 0; i < 20; i++){
    $('body').append('<div class= "squares"></div>')
  }
+$('.square').on('click', function(){
+    $(this).css('background','green')
+})
